@@ -1,0 +1,57 @@
+
+body{
+	background-image:url("./bckg.jpg");
+}
+h2 {
+	text-align: center;
+}
+#sideBar{
+	position:fixed;
+	left:10px;
+	min-height: 100%;
+	min-width: 20%;
+	background-color: #C4FFD8;
+	box-shadow: 10px 10px 5px #9A9998;
+	z-index: 1;
+	left:-10px;
+
+}
+#topNav {
+	position: fixed;
+	left:-20px;
+	min-height: 23%;
+	min-width: 100%;
+	background-color: #D0DCE5; 
+	box-shadow: 10px 10px 5px #9A9998;
+}
+/*#topNav:hover{
+	left:60px;
+}*/
+#topwrap{
+	position: fixed;
+	top:28%;
+	background-color:#C8E4FF ;
+	width: 100%;
+	right: -25px;
+	min-height: 53%;
+	box-shadow: -10px 10px 5px #9A9998;
+
+}
+/*#topwrap:hover{
+	right:60px;
+}*/
+#botNav{
+	position: fixed;
+	bottom: -10%;
+	left:-25px;
+	min-width: 100%;
+	min-height: 23%;
+	background-color: #D8CAFF;
+	box-shadow: -10px 10px -5px #9A9998;
+}
+/*#botNav:hover{
+	left:60px;
+}*/
+body {
+
+}
